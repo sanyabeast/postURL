@@ -76,7 +76,7 @@
 	   			if (typeof data == 'undefined'){
 	   				result = result + action;
 	   			} else {
-	   				result = result + 'action' + this.splitter + (typeof data == 'string' ? data : JSON.stringify(data));
+	   				result = result + action + this.splitter + (typeof data == 'string' ? data : JSON.stringify(data));
 	   			}
 
 	   			return result;
