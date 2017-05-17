@@ -39,6 +39,8 @@
    		read : function(){
    			var href = window.location.href;
    			var message = this.unpack(href);
+
+   			return message;
    		},
    		add2URL : function(data){
    			window.open('#' + data, '_self');
