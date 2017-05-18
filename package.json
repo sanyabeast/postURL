@@ -1,6 +1,7 @@
 {
 	"name" : "postURL",
 	"version" : "0.9.0",
+	"description" : "url messaging tool",
 	"author" : {
 		"name" : "Alex Gaivoronski",
 		"email" : "a.gvrnsk@gmail.com"
