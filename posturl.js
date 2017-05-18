@@ -21,10 +21,13 @@
    				this.onMessage(this.read());
    			}
    		}.bind(this));
+
+      this.write('');
+
    	};
 
    	PostURL.prototype = {
-   		splitter : '::',
+   		splitter : '>>',
    		onMessage : null,
    		write : function(action, data){
    			var message = this.pack(action, data);
