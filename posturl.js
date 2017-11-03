@@ -62,7 +62,7 @@
    					try {
    						return {
 	   						action : raw[0],
-	   						data : JSON.parse(raw[1])
+	   						data : JSON.parse(window.unescape(raw[1]))
 	   					}
    					} catch (err){
    						console.warn(err);
